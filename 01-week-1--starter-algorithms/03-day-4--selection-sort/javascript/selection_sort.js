@@ -1,6 +1,17 @@
+// Sort an Array of numbers using selection sort. 
+// The selection sort algorithm sorts an array by repeatedly finding the minimum element (lowest value) in the input Array
+// and then putting it at the correct location in the sorted Array.
+// Input: [3, -1, 5, 2]
+
+// Output: [-1, 2, 3, 5]
 function selectionSort(arr) {
-  // type your code here
+  for (i = 0; i < arr.length - 1; i++) {
+    let minPos = i;
+     for ( let j = i + 1)
+   }
+   
 }
+
 
 if (require.main === module) {
   // add your own tests in here
@@ -19,5 +30,9 @@ if (require.main === module) {
 
 module.exports = selectionSort;
 
-// Please add your pseudocode to this file
-// And a written explanation of your solution
+// Step 1 − Set MIN to arr[0]
+// Step 2 − Search the minimum element in the list
+// Step 3 − Swap with value at location MIN
+// Step 4 − Increment MIN to point to next element
+// Step 5 − Repeat until list is sortedn
+
