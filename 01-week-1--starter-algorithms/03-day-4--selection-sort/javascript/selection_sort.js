@@ -2,14 +2,23 @@
 // The selection sort algorithm sorts an array by repeatedly finding the minimum element (lowest value) in the input Array
 // and then putting it at the correct location in the sorted Array.
 // Input: [3, -1, 5, 2]
-
 // Output: [-1, 2, 3, 5]
 function selectionSort(arr) {
-  for (i = 0; i < arr.length - 1; i++) {
-    let minPos = i;
-     for ( let j = i + 1)
-   }
-   
+  let len = arr.length;
+  for (let i = 0; i < len; i++) {
+    let min = i;
+     for (let j = i + 1; j < len; j++) {
+       if (arr[min] > arr[j]) {
+            min = j;
+       }
+     }
+     if (min !==i) {
+       let tmp = arr[i];
+       arr[i] = arr[min];
+       arr[min] = arr[tmp];
+     }
+   } 
+   return arr;
 }
 
 

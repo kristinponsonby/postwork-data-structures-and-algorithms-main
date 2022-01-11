@@ -1,3 +1,9 @@
+// Given an Array, find the first duplicate value that occurs. If there are no duplicates, return -1.
+// Input: [2, 1, 3, 3, 2]
+// Output: 3
+// Input: [1, 2, 3, 4]
+// Output: -1
+
 function findFirstDuplicate(arr) {
   const uniques = new Set();
 

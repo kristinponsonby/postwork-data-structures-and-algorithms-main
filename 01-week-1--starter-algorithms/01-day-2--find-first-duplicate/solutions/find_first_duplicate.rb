@@ -37,7 +37,7 @@ if __FILE__ == $PROGRAM_NAME
   puts find_first_duplicate([7, 1, 2, 3, 7])
 end
 
-# Please add your pseudocode to this file
+#
 ####################################################################
  # initialize an empty set called uniques
  # 
