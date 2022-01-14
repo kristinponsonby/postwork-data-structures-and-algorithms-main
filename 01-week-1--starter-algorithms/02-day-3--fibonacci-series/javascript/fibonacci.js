@@ -1,3 +1,18 @@
+// Find the nth element in the Fibonacci series. The Fibonacci sequence starts with a 0 followed by a 1.
+// After that, every value is the sum of the two values preceding it. 
+///Here are the first seven values as an example: 0, 1, 1, 2, 3, 5, 8, 13, 22, 55,
+
+// ```
+// Input: 0 
+// Output: 0
+
+// 0,1 
+// 0 + 1 = 1
+// 1, 1
+// 1 + 1 2
+
+// Input: 2
+// Output: 1
 function fibonacci(num) {
   // type your code here
 }
@@ -19,6 +34,6 @@ if (require.main === module) {
 }
 
 module.exports = fibonacci;
-
+//
 // Please add your pseudocode to this file
 // And a written explanation of your solution
